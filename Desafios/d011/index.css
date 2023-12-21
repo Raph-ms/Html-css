@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+header{
+    background-color: black;
+    height: 150px;
+    color: white;
+    text-align: center;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
