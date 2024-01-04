@@ -13,6 +13,11 @@ body{
 table{
     width: 500px;
     border-collapse: collapse;
+    position: relative;
+}
+thead > tr > th {
+    position: sticky;
+    top: -1px;
 }
 tfoot{
     text-align: center;
@@ -33,6 +38,10 @@ caption{
     background-color: lightgray;
     padding: 10px;
     font-weight: bold;
+}
+tbody tr:nth-child(2n-1){
+    background-color: lightgray;
+
 }
     </style>
 </head>
