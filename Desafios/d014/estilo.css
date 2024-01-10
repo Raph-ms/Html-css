@@ -9,6 +9,12 @@ th.cabeçalho{
     color: white;
     padding: 8px;
 }
+td.cabeçalho{
+    background-color: gray;
+    border: 1px solid black;
+    color: white;
+    padding: 8px;
+}
 table{
     border-collapse: collapse;
 }
